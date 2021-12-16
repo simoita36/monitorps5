@@ -14,7 +14,7 @@ const client = new Discord.Client({
 //const ps5_url = "https://www.unieuro.it/online/Console-Playstation-5/PlayStation-5-pidSON9709695";
 //const rand = "https://www.unieuro.it/online/Accessori-Playstation-5/PS5-Base-di-Ricarica-DualSense-pidSON9374107";
 
-const ps5 = prompt('What site do you wanna monitor ? ');
+const ps5 = "https://www.unieuro.it/online/j/d-pidSONPS5DISC";
     let text = ps5;
     let result = text.slice(52);
         console.log(`Start Monitoring... ${result}`);
